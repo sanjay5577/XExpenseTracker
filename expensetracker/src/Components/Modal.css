@@ -28,16 +28,22 @@
     display: flex;
     justify-content: space-around;
 
+
   }
   
 
   .textinput{
     height: 51px;
+    width: 180px;
     border-radius: 15px ;
-    margin-right: 12px;
+    margin: 6px;
     border: none;
+    outline: none;
     padding:  0px 21px;
 
+  }
+  .addwidth{
+    width: 222px;
   }
 
   .submitbutton{
@@ -49,9 +55,10 @@
     text-align: left;
     border-radius: 15px;
     border: none;
-    margin-right: 12px;
+    margin: 6px;
     padding:  15px 21px;
     background: linear-gradient(0deg, #F4BB4A, #F4BB4A);
+    cursor: pointer;
 
   }
 
@@ -64,12 +71,13 @@
     text-align: left;
     border-radius: 15px;
     border: none;
-    margin-right: 12px;
+    margin: 6px;
     padding:  15px 21px;
     background: linear-gradient(0deg, #D9D9D9, #D9D9D9),
     linear-gradient(0deg, #D9D9D9, #D9D9D9),
     linear-gradient(0deg, #E3E3E3, #E3E3E3);
-    
-
+    cursor: pointer;
 
   }
+
+  
